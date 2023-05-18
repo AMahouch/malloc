@@ -31,10 +31,12 @@ two blocks with the remaining excess considered as a free block. Block coalescin
 two consecutive free blocks are joined to create one large free block.
 
 ## Demo
-![best_fit SS](https://github.com/AMahouch/malloc/assets/97981126/08f09ac9-d7cc-4c33-b523-f70e87831230)
+![best_fit SS](https://github.com/AMahouch/malloc/assets/97981126/529f0879-be44-4d36-8be9-2dad6ce50377)
 
 
-![first_fit SS](https://github.com/AMahouch/malloc/assets/97981126/ca6e7f5f-bd6d-4cc5-8cae-dc29439cb578)
+
+![first_fit SS](https://github.com/AMahouch/malloc/assets/97981126/f380f1d1-c49a-4e01-b0d3-7bdff778a763)
+
 
 ## Building and Running
 The code compiles into four shared libraries and six test programs. To build the code, change to your top level assignment directory and type:
