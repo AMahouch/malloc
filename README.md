@@ -30,6 +30,12 @@ Block splitting occurs when a free block can fit an incoming request with excess
 two blocks with the remaining excess considered as a free block. Block coalescing occurs when
 two consecutive free blocks are joined to create one large free block.
 
+## Demo
+![best_fit SS](https://github.com/AMahouch/malloc/assets/97981126/08f09ac9-d7cc-4c33-b523-f70e87831230)
+
+
+![first_fit SS](https://github.com/AMahouch/malloc/assets/97981126/ca6e7f5f-bd6d-4cc5-8cae-dc29439cb578)
+
 ## Building and Running
 The code compiles into four shared libraries and six test programs. To build the code, change to your top level assignment directory and type:
 ```
